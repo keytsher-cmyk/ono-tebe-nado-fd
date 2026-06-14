@@ -1,1 +1,122 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px 50px;
+}
+
+.header__menu {
+
+}
+
+.header__links-list {
+  display: flex;
+  gap: 32px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__links-list-item {
+  list-style: circle;
+}
+
+.header__link {
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 100%;
+  text-underline-offset: 4px;
+}
+
+.header__link_active .header__link {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+}
+
+.header__logo-image {
+  display: block;
+  height: 100%;
+}
+
+.address {
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px;
+  letter-spacing: 0%;
+  text-underline-offset: 4px;
+}
+
+.header__address {
+  max-width: 240px;
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cover {
+  background-image: url('/images/cover.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.description {
+
+}
+
+.lots {
+  padding: 180px 24px 120px 24px;
+}
+
+.card__one {
+  background-image: url('/images/card-lot-01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card__two {
+  background-image: url('/images/card-lot-02.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card__three {
+  background-image: url('/images/card-lot-03.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about {
+  padding: 0 24px 180px 24px;
+}
+
+.about__logo {
+
+}
+
+.about__logo-image {
+
+}
+
+.footer {
+  padding: 0 24px 0 24px;
+}
+
+.footer__menu {
+
+}
+
+.footer__menu-link {
+
+}
