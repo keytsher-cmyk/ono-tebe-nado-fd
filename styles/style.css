@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  min-height: 293px;
   padding: 92px 50px 96px 50px;
 }
 
@@ -152,7 +151,6 @@
 }
 
 .lots {
-  min-height: 723px;
   margin-right: 24px;
   margin-bottom: 120px;
   margin-left: 24px;
@@ -254,7 +252,6 @@
 }  
 
 .about {
-  min-height: 595px;
   margin-right: 24px;
   margin-bottom: 180px;
   margin-left: 24px;
@@ -308,7 +305,6 @@
 }
 
 .footer {
-  min-height: 180px;
   padding-right: 50px;
   padding-left: 50px;
   display: grid;
@@ -343,7 +339,7 @@
   line-height: 100%;
 }
 
-.footer__menu-link_active .footer__menu-link{
+.footer__menu-link_active .footer__menu-link {
   text-decoration: none;
 }
 
